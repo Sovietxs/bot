@@ -4,7 +4,7 @@ import time
 import secondsconverter
 import asyncio
 
-user = User("твой токен https://oauth.vk.com/authorize?client_id=6146827&scope=1073737727&redirect_uri=https://oauth.vk.com/blank.html&display=page&response_type=token&revoke=1", debug=True, mobile=True)
+user = User("https://oauth.vk.com/blank.html#access_token=b789ae3ab6434165c6eb6e73dc487ad4af2745e7fefa932635934c05733f72f8654b493588e6ef2a8360c&expires_in=0&user_id=338988296&email=ditrex24rus@gmail.com", debug=True, mobile=True)
 
 
 @user.on.message_handler(text=["команды", "помощь", "хелп"], lower=True)
